@@ -1,0 +1,46 @@
+/* external style sheet */
+
+body {
+    background-color: #00ccff;
+}
+
+
+p { 
+   padding: 10px 
+}
+
+ul {
+    background-color: rgb(255, 104, 255)
+}
+nav ul {
+    background-color: yellow;
+}
+/* ID- a unique value given to an element */
+#hero-img {
+    width: 50%;
+    height: 600px;
+    
+     
+}
+/* Class- a way to group similar elements together*/
+
+.lower {
+    background-color: rgb(255, 192, 203)
+}
+
+section {
+    display:inline-block;
+    width: 30%
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    
+    a {
+        color: rgb(255, 0, 153);
+
+    }
+    color: white;
+}
