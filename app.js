@@ -2,9 +2,9 @@
 
 console.log ("You Can Have Confidence");
 alert ("Confidence starts here!");
-youCanhaveconfidence();
+youCanHaveConfidence();
 
-function youCanhaveconfidence() {
+function youCanHaveConfidence() {
     document.write("Your" + confidenceRating + " Adds value to who you are");
 }
 
@@ -18,35 +18,30 @@ function getConfidenceRating() {
 
 // console.log (getConfidenceRating);
 // 
-console.log (confidenceRating);
+// console.log (confidenceRating);
 
-// string concatenation means strings combined with variables.
-
-
+// string concatenation means strings combined with variables.// 
 
 
-document.write("Your "  + confidenceRating +   " Adds value to who you are");
-youCanhaveconfidence();
+// document.write("Your "  + confidenceRating +   " Adds value to who you are");
+youCanHaveConfidence();
 
 function specialmessage(confidenceRating){
-  if (confidenceRating == "")
-  
+    if (confidenceRating == ""){
      confidenceRating = prompt("Come on, please tell me your confidence rating!");}
-     if (confidenceRating == "5") 
-document.write ("Take our Confidence Course"); 
-
-if (confidenceRating == "5") {alert ("Take our Confidence Course"); {
-    
-}
+     
+     if (confidenceRating == "5");
+     document.write ("Take our Confidence Course");
+if (confidenceRating == "5") {alert ("Take our Confidence Course");
 } else if (confidenceRating == "7") { 
     alert ("Get our Confidence Ebook");
-}else if (confidenceRating == "1") {
+} else if (confidenceRating == "1") {
         alert ("Take our Confidence Course");
 } else if (confidenceRating == "3") {
     alert ("Take our Confidence Course");
 } else if (confidenceRating == "10") 
     alert ("Get our Confidence Ebook");
-else {
+  else {
     alert ("Take our Confidence Course")
 }
 
@@ -70,6 +65,4 @@ else {
 //     return sum;
 // }
 
-// addTwoNumbers (47,20);
-// addTwoNumbers (1,4); 
-
+// addTwoNumbers (47,20);// addTwoNumbers (1,4);}
