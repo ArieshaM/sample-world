@@ -29,7 +29,7 @@ function youCanHaveConfidence(confidenceRating) {
     else {
         alert("Take our Confidence Course")
     }
-    document.write("Your " + confidenceRating + " Adds value to who you are");
+    document.write("Your " + confidenceRating + " Adds value to who YOU are!");
 }
 
     function getConfidenceRating() {
@@ -71,8 +71,8 @@ function youCanHaveConfidence(confidenceRating) {
         function rateMyPage(){
         let rating = prompt ("How many stars would you rate my page? 1-5");
 // https://canvas.instructure.com/courses/6652008/grades
-        for (let i = 0; 1 < rating; i++) {
-            document.write ("https://unsplash.com/photos/selective-focus-photography-of-jolly-woman-using-peace-hand-gesture-oTweoxMKdkA") ;
+        for (let i = 0; i < rating; i++) {
+            document.write (" Confidence is Power! ") ;
         }
 
     }
